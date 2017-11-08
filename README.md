@@ -9,7 +9,9 @@ event that the PTP Offset from Master value falls outside the range of configure
 a Syslog will be generated.  Default Threshold values are:-
 
 *threshold 1*  = Between 1000 and 1999, and between -1000 and -1999
+
 *threshold 2*  = Between 2000 and 4999, and between -2000 and -4999
+
 *threshold 3*  = Abover 5000 and above -5000
 
 ## Configuring Thresholds
