@@ -12,23 +12,30 @@ a Syslog will be generated.  Default Threshold values are:-
 
 *threshold 2*  = Between 2000 and 4999, and between -2000 and -4999
 
-*threshold 3*  = Abover 5000 and above -5000
+*threshold 3*  = Above 5000 and above -5000
 
 ## Configuring Thresholds
 
 n9kv1(config)# PTPOffsetMon Threshold1 ?
+
   <0-1000>  Upper threshold value in nanoseconds
 
 ## Showing currently configured Thresholds
 
 n9kv1# show PTPOffsetMon values
+
 Upper Threshold Sev 1 is set to 1000 
+
 Lower Threshold Sev 1 is set to -1000 
 
+
 Upper Threshold Sev 2 is set to 2000 
+
 Lower Threshold Sev 2 is set to -2000 
 
+
 Upper Threshold Sev 3 is set to 5000 
+
 Lower Threshold Sev 3 is set to -5000
 
 ## Show Offset from Master
