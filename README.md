@@ -40,7 +40,7 @@ Lower Threshold Sev 3 is set to -5000
 
 ## Show Offset from Master
 
-n9kv1# show BOAptpApp ptp offset 
+n9kv1# show PTPOffsetMon ptp offset 
 
 The current ptp offset from master is at 0
 
