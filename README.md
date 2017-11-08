@@ -8,9 +8,9 @@ The application will monitor, every two minutes the value of the PTP Offset from
 event that the PTP Offset from Master value falls outside the range of configured thresholds, then
 a Syslog will be generated.  Default Threshold values are:-
 
-* threshold 1 *  = Between 1000 and 1999, and between -1000 and -1999
-* threshold 2 *  = Between 2000 and 4999, and between -2000 and -4999
-* threshold 3 *  = Abover 5000 and above -5000
+*threshold 1*  = Between 1000 and 1999, and between -1000 and -1999
+*threshold 2*  = Between 2000 and 4999, and between -2000 and -4999
+*threshold 3*  = Abover 5000 and above -5000
 
 ## Configuring Thresholds
 
@@ -54,7 +54,7 @@ bash-4.2$ pwd
 bash-4.2$ cd /bootflash
 bash-4.2$ nohup /isan/bin/python PTPOffsetMon.py &
 
-* do not kill the application with BASH.  In order stop the application do so from the command line *
+*do not kill the application with BASH.  In order stop the application do so from the command line*
 
 n9kv1#(config)PTPOffsetMon stop-event-loop
 
