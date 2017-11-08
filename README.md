@@ -58,9 +58,13 @@ The source code needs to be copied to the NXOS device and can be run from the BA
 is on bootflash:-
 
 n9kv1# run bash
+
 bash-4.2$ pwd
+
 /bootflash/home/
+
 bash-4.2$ cd /bootflash
+
 bash-4.2$ nohup /isan/bin/python PTPOffsetMon.py &
 
 *do not kill the application with BASH.  In order stop the application do so from the command line*
@@ -69,7 +73,7 @@ n9kv1#(config)PTPOffsetMon stop-event-loop
 
 ## Running the application as a Service
 
-The advantages of running as a Service is that the application can controlled by the operator from the NXOS
+The advantages of running as a Service is that the application can be controlled by the operator from the NXOS
 command line.  Additionally the application will be persistent and will continue to run after device reload.
 
 The RPM file in this repository's RPM directory needs to be copied to the bootflash of the device.
