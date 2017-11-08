@@ -67,7 +67,7 @@ bash-4.2$ cd /bootflash
 
 bash-4.2$ nohup /isan/bin/python PTPOffsetMon.py &
 
-*do not kill the application with BASH.  In order stop the application do so from the command line*
+*do not kill the application within BASH.  In order stop the application do so from the command line*
 
 n9kv1#(config)PTPOffsetMon stop-event-loop
 
