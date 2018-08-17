@@ -1,6 +1,6 @@
 # PTPOffsetMon
 
-The PTPOffsetMon application is built for the Cisco NX-OS range of Data Center switches (Nexus 9000).  
+ The PTPOffsetMon application is built for the Cisco NX-OS range of Data Center switches (Nexus 9000).  
 
 ## Basic Operation
 
