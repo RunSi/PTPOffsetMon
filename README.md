@@ -16,7 +16,7 @@ a Syslog will be generated.  Default Threshold values are:-
 
 ## Configuring Thresholds
 
-n9kv1(config)# PTPOffsetMon Threshold1 ?
+n9kv1(config)# PTPOffsetMon Threshold1  ?
 
   <0-1000>  Upper threshold value in nanoseconds
 
